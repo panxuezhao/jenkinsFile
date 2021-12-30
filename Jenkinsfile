@@ -1,14 +1,11 @@
-
-Jenkinsfile (Declarative Pipeline)
-
 pipeline {
-    agent { docker 'python:3.5.1' }
+    agent any
+
     stages {
-        stage('build') {
+        stage('Hello') {
             steps {
-                echo "111111111111111111111"
+                echo 'Hello World'
             }
         }
     }
 }
-
