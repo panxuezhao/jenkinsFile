@@ -20,12 +20,12 @@ pipeline {
         stage('touch txt') {
             steps {
                 sh '''#!/usr/bin/bash
-touch txt1
-if [[ $? -eq 0 ]];then
-    echo "ok"
-else
-    echo "error"
-fi'''
+            touch txt1
+            if [[ $? -eq 0 ]];then
+               echo "ok"
+            else
+              echo "error"
+            fi'''
             }
         }
     }
