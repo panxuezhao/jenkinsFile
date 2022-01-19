@@ -19,7 +19,7 @@ pipeline {
         }
         stage('touch txt') {
             steps {
-                sh '''#!/usr/bin/bash
+                sh '''
             touch txt1
             if [[ $? -eq 0 ]];then
                echo "ok"
