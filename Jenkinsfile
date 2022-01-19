@@ -20,7 +20,7 @@ pipeline {
         stage('touch txt') {
             steps {
                 sh '''
-              echo "78iashdksajdl90909090"
+                touch txt
             '''
             }
         }
