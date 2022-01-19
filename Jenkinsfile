@@ -17,5 +17,10 @@ pipeline {
                 echo 'niuniuniu'
             }
         }
+        stage('touch txt') {
+            steps {
+                touch txt1
+            }
+        }
     }
 }
