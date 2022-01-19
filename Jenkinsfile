@@ -12,6 +12,9 @@ pipeline {
             steps {
                 echo '00000'
             }
+            steps {
+                echo 'zhangsan is lisi gege'
+            }
         }
     }
 }
