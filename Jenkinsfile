@@ -6,14 +6,15 @@ pipeline {
             steps {
                 echo 'Hello World'
             }
-            steps {
-                echo '67890'
-            }
-            steps {
-                echo '00000'
-            }
+        }
+        stage('world') {
             steps {
                 echo 'zhangsan is lisi gege'
+            }
+        }
+        stage('123') {
+            steps {
+                echo 'niuniuniu'
             }
         }
     }
